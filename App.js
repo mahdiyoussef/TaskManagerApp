@@ -27,7 +27,7 @@ export default function App() {
         textAlign:'center',
         margin:10,
         alignItems:'center'}} onChangeText={goalInputHandler} value={enteredGoal}/><br />
-        <view><br/><Button  title="Add"  onPress={addGoalHandler}/></view>
+        <View><Button  title="Add"  onPress={addGoalHandler}/></View>
       </View>
           
        <View  style={{marginTop:10,position:'absolute',top:100,left:0,right:0,alignItems:'center',backgroundColor:'yellow'}}>
